@@ -1,3 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 var name = "Sergio";
-Console.WriteLine("Hello, " + name + "!");
+string name2 ="Farid";
+Console.WriteLine("Hello, " + name + " and " + name2+ "!");
+
+
