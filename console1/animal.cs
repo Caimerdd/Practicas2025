@@ -20,7 +20,6 @@ namespace Console1 {
 
     class Bird: Animal {
         public void fly(){
-            
         }
     }
 }
