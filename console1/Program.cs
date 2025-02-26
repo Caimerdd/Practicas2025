@@ -1,7 +1,28 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System; 
+namespace Console1 {
+    class Program {
+        public static void makeSound(Animal animal){
+            if (animal is Dog){
+                (animal as Dog).bark();
+            } else if (animal is Cat) {
+                (animal as Cat).sound();
+            } else {
+                Console.WriteLine("No sound!");
+            }
+        }
 
-var name = "Sergio";
-string name2 ="Farid";
-Console.WriteLine("Hello, " + name + " and " + name2+ "!");
+        public static void Main (string[] args) {
+            var max = new Dog();
+            // max.bark();
 
+            var squishi = new Cat();
+            // squishi.sound();
 
+            var x = new Bird();
+
+            makeSound(max);
+            makeSound(squishi);
+            makeSound(x);
+        }
+    }
+}
