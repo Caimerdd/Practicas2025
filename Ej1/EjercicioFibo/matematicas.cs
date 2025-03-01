@@ -1,10 +1,9 @@
-namespace EjercicioFibo
-{
+
     using System;
 
     public class Matematicas
     {
-        public static void Fibonacci(int cantidad)
+        public void Fibonacci(int cantidad)
         {
             int a = 0, b = 1;
 
@@ -21,4 +20,4 @@ namespace EjercicioFibo
             Console.WriteLine();
         }
     }
-}
+
