@@ -20,7 +20,7 @@
                 } 
                 else 
                 {
-                    Console.WriteLine("El valor indicado no es valido. Ingrese nuevamente...");
+                    Console.WriteLine("El valor ingresado no es valido. Ingrese nuevamente...");
                 }
             }
             else
